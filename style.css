@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&display=swap');
+
+h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 500 ;
+    font-style: normal ;
+    font-size: xx-large;
+    text-align: center;
+}
+
+button{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400 ;
+    font-style: normal ;
+    font-size: x-large;
+}
+
+p{
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 0,1px solid rgba(236, 84, 13, 0.884);
+    background-color: rgba(236, 84, 13, 0.884);
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.tabs button:hover {
+    background-color: rgb(42, 202, 162);
+}
+
+.tabs button.active{
+    background-color: rgb(255, 255, 255);
+}
+
+.tabscontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgba(236, 84, 13, 0.884);
+    border-top: none;
+    background-color: rgb(42, 202, 162);
+}
+
+
+  
